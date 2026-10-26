@@ -1,0 +1,3 @@
+Experimento,MAE,RMSE,R2,Tempo_treino_s,Variaveis_removidas
+Todas as variáveis,34.269924619169764,71.45801894657332,0.9984467896621635,105.62,"cell_voltage_avg, thermal_runaway_risk, thermal_health_score"
+Sem as variáveis suspeitas,36.8232178191907,102.56728619835147,0.9968000288849714,96.73,"cell_voltage_avg, thermal_runaway_risk, thermal_health_score"
