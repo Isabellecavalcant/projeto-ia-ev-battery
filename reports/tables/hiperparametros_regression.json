@@ -1,0 +1,20 @@
+{
+  "tree_tuned": {
+    "criterion": "squared_error",
+    "ccp_alpha": 0.0,
+    "max_depth": 10,
+    "min_samples_leaf": 10
+  },
+  "rf": {
+    "n_estimators": 50,
+    "min_samples_leaf": 10,
+    "max_features": 0.3,
+    "max_depth": null
+  },
+  "gradient_boosting": {
+    "min_samples_leaf": 50,
+    "max_iter": 50,
+    "max_depth": null,
+    "learning_rate": 0.2
+  }
+}

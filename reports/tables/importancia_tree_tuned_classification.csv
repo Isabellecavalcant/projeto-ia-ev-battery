@@ -1,0 +1,164 @@
+feature,importancia
+num__capacity_loss_percent,0.6236046370910652
+num__cell_voltage_std,0.09661064264507216
+num__charging_quality_score,0.09639264209419499
+num__battery_stress_index,0.05225275619311937
+num__BMS_warning_count,0.023037716597413917
+num__thermal_runaway_risk,0.021446289813043622
+num__battery_health_percent,0.019543971478747705
+num__cooling_system_health,0.016203281823870166
+num__maintenance_score,0.01335219297975021
+num__voltage_imbalance,0.012237742107005236
+num__aging_score,0.008005507898946504
+num__vehicle_age_years,0.005074691952409942
+num__internal_resistance,0.003588085219621287
+num__thermal_health_score,0.0034990548276383525
+num__maximum_temperature,0.0009663149108829561
+num__slow_charge_ratio,0.000793859046274883
+num__battery_capacity_kwh,0.000594102632655461
+num__state_of_health,0.0004473351850089742
+num__manufacturing_year,0.00034578710932209956
+num__cell_temperature_avg,0.00031117157048169195
+num__last_service_days,0.00027681977979089557
+num__aggressive_acceleration_score,0.00026560018269076817
+num__driving_stress_score,0.00021893575913487943
+num__odometer_km,0.00021541719625199315
+num__average_charge_power_kw,0.00020700217563784525
+num__remaining_capacity,0.00018137268833550834
+num__average_speed,0.00013350357138562302
+num__minimum_temperature,8.704018673138878e-05
+num__discharge_efficiency,5.989501360105884e-05
+num__daily_distance,4.6630269915419e-05
+num__cell_temperature_max,0.0
+num__charge_efficiency,0.0
+num__depth_of_discharge,0.0
+num__cycle_count,0.0
+num__state_of_charge,0.0
+num__city_driving_ratio,0.0
+num__highway_driving_ratio,0.0
+num__regenerative_braking_usage,0.0
+num__hard_braking_score,0.0
+num__average_trip_distance,0.0
+num__overcharge_events,0.0
+num__home_charging_ratio,0.0
+num__charging_interruptions,0.0
+num__charging_cycles_last_month,0.0
+num__fast_charge_ratio,0.0
+num__overnight_charging_ratio,0.0
+num__average_charging_time,0.0
+num__cell_voltage_avg,0.0
+num__pack_voltage,0.0
+num__dust_exposure,0.0
+num__altitude,0.0
+num__sensor_fault_count,0.0
+num__temperature_variance,0.0
+num__firmware_updates,0.0
+num__previous_faults,0.0
+num__average_ambient_temperature,0.0
+num__humidity,0.0
+num__abnormal_voltage_events,0.0
+cat__vehicle_brand_Audi,0.0
+cat__vehicle_brand_BMW,0.0
+cat__vehicle_brand_BYD,0.0
+cat__vehicle_brand_Ford,0.0
+cat__vehicle_brand_GM,0.0
+cat__vehicle_brand_Honda,0.0
+cat__vehicle_brand_Hyundai,0.0
+cat__vehicle_brand_Kia,0.0
+cat__vehicle_brand_Lucid,0.0
+cat__vehicle_brand_MG,0.0
+cat__vehicle_brand_Mahindra,0.0
+cat__vehicle_brand_Mercedes,0.0
+cat__vehicle_brand_Nissan,0.0
+cat__vehicle_brand_Renault,0.0
+cat__vehicle_brand_Rivian,0.0
+cat__vehicle_brand_Tata,0.0
+cat__vehicle_brand_Tesla,0.0
+cat__vehicle_brand_Toyota,0.0
+cat__vehicle_brand_Volkswagen,0.0
+cat__vehicle_brand_Volvo,0.0
+cat__vehicle_model_Air,0.0
+cat__vehicle_model_Ariya,0.0
+cat__vehicle_model_Atto 3,0.0
+cat__vehicle_model_BE 6,0.0
+cat__vehicle_model_Cadillac Lyriq,0.0
+cat__vehicle_model_Chevrolet Bolt,0.0
+cat__vehicle_model_Comet EV,0.0
+cat__vehicle_model_Dolphin,0.0
+cat__vehicle_model_EQB,0.0
+cat__vehicle_model_EQE,0.0
+cat__vehicle_model_EQS,0.0
+cat__vehicle_model_EV6,0.0
+cat__vehicle_model_EV9,0.0
+cat__vehicle_model_EX30,0.0
+cat__vehicle_model_EX90,0.0
+cat__vehicle_model_F-150 Lightning,0.0
+cat__vehicle_model_Gravity,0.0
+cat__vehicle_model_Han,0.0
+cat__vehicle_model_ID.3,0.0
+cat__vehicle_model_ID.4,0.0
+cat__vehicle_model_ID.Buzz,0.0
+cat__vehicle_model_Ioniq 5,0.0
+cat__vehicle_model_Ioniq 6,0.0
+cat__vehicle_model_Kona Electric,0.0
+cat__vehicle_model_Leaf,0.0
+cat__vehicle_model_MG4,0.0
+cat__vehicle_model_Megane E-Tech,0.0
+cat__vehicle_model_Model 3,0.0
+cat__vehicle_model_Model S,0.0
+cat__vehicle_model_Model X,0.0
+cat__vehicle_model_Model Y,0.0
+cat__vehicle_model_Mustang Mach-E,0.0
+cat__vehicle_model_Nexon EV,0.0
+cat__vehicle_model_Niro EV,0.0
+cat__vehicle_model_Prologue,0.0
+cat__vehicle_model_Punch EV,0.0
+cat__vehicle_model_Q4 e-tron,0.0
+cat__vehicle_model_R1S,0.0
+cat__vehicle_model_R1T,0.0
+cat__vehicle_model_Silverado EV,0.0
+cat__vehicle_model_Song Plus,0.0
+cat__vehicle_model_Tang,0.0
+cat__vehicle_model_Tiago EV,0.0
+cat__vehicle_model_XC40 Recharge,0.0
+cat__vehicle_model_XUV400,0.0
+cat__vehicle_model_ZS EV,0.0
+cat__vehicle_model_Zoe,0.0
+cat__vehicle_model_bZ3,0.0
+cat__vehicle_model_bZ4X,0.0
+cat__vehicle_model_e-tron,0.0
+cat__vehicle_model_e-tron GT,0.0
+cat__vehicle_model_e:Ny1,0.0
+cat__vehicle_model_i4,0.0
+cat__vehicle_model_i7,0.0
+cat__vehicle_model_iX,0.0
+cat__vehicle_type_Crossover,0.0
+cat__vehicle_type_Hatchback,0.0
+cat__vehicle_type_SUV,0.0
+cat__vehicle_type_Sedan,0.0
+cat__vehicle_type_Truck,0.0
+cat__vehicle_type_Van,0.0
+cat__battery_manufacturer_BYD Battery,0.0
+cat__battery_manufacturer_CATL,0.0
+cat__battery_manufacturer_Envision AESC,0.0
+cat__battery_manufacturer_Guoxuan,0.0
+cat__battery_manufacturer_LG Energy Solution,0.0
+cat__battery_manufacturer_Northvolt,0.0
+cat__battery_manufacturer_Panasonic,0.0
+cat__battery_manufacturer_SK On,0.0
+cat__battery_manufacturer_Samsung SDI,0.0
+cat__battery_chemistry_LFP,0.0
+cat__battery_chemistry_LMO,0.0
+cat__battery_chemistry_LTO,0.0
+cat__battery_chemistry_NCA,0.0
+cat__battery_chemistry_NMC,0.0
+cat__drive_type_AWD,0.0
+cat__drive_type_FWD,0.0
+cat__drive_type_RWD,0.0
+cat__fleet_or_private_Fleet,0.0
+cat__fleet_or_private_Private,0.0
+cat__terrain_type_Coastal,0.0
+cat__terrain_type_Desert,0.0
+cat__terrain_type_Flat,0.0
+cat__terrain_type_Hilly,0.0
+cat__terrain_type_Mountainous,0.0

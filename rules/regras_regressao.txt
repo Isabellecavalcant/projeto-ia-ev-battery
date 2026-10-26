@@ -1,0 +1,14 @@
+# Sistema especialista para estimar a vida útil restante em ciclos.
+# Estimativas heurísticas iniciais, ainda não validadas empiricamente.
+PADRÃO: predicted_remaining_life_cycles = 1246
+
+R01 | heurística | SE battery_health_percent < 30 | ENTÃO predicted_remaining_life_cycles = 0
+R02 | heurística | SE capacity_loss_percent >= 50 E aging_score >= 80 | ENTÃO predicted_remaining_life_cycles = 100
+R03 | heurística | SE battery_health_percent < 50 E capacity_loss_percent >= 35 | ENTÃO predicted_remaining_life_cycles = 200
+R04 | heurística | SE aging_score >= 80 E battery_stress_index >= 80 | ENTÃO predicted_remaining_life_cycles = 300
+R05 | heurística | SE battery_health_percent < 60 E cycle_count >= 800 | ENTÃO predicted_remaining_life_cycles = 400
+R06 | heurística | SE battery_health_percent < 70 E capacity_loss_percent >= 25 | ENTÃO predicted_remaining_life_cycles = 600
+R07 | heurística | SE cycle_count >= 1000 | ENTÃO predicted_remaining_life_cycles = 500
+R08 | heurística | SE battery_health_percent >= 95 E aging_score < 15 | ENTÃO predicted_remaining_life_cycles = 2500
+R09 | heurística | SE battery_health_percent >= 90 E capacity_loss_percent < 10 | ENTÃO predicted_remaining_life_cycles = 1800
+R10 | heurística | SE battery_health_percent >= 80 E aging_score < 30 | ENTÃO predicted_remaining_life_cycles = 1500

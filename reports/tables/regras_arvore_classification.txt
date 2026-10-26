@@ -1,0 +1,94 @@
+|--- num__capacity_loss_percent <= 1.46
+|   |--- num__cell_voltage_std <= 1.18
+|   |   |--- num__battery_health_percent <= -0.68
+|   |   |   |--- num__battery_stress_index <= 1.03
+|   |   |   |   |--- num__charging_quality_score <= -1.51
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__charging_quality_score >  -1.51
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__battery_stress_index >  1.03
+|   |   |   |   |--- num__charging_quality_score <= -1.64
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__charging_quality_score >  -1.64
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- num__battery_health_percent >  -0.68
+|   |   |   |--- num__battery_stress_index <= 1.75
+|   |   |   |   |--- num__charging_quality_score <= -1.81
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__charging_quality_score >  -1.81
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__battery_stress_index >  1.75
+|   |   |   |   |--- num__aging_score <= 0.05
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__aging_score >  0.05
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |--- num__cell_voltage_std >  1.18
+|   |   |--- num__charging_quality_score <= -0.59
+|   |   |   |--- num__battery_stress_index <= 0.44
+|   |   |   |   |--- num__cell_voltage_std <= 2.00
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__cell_voltage_std >  2.00
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |--- num__battery_stress_index >  0.44
+|   |   |   |   |--- num__cell_voltage_std <= 1.71
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__cell_voltage_std >  1.71
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- num__charging_quality_score >  -0.59
+|   |   |   |--- num__thermal_runaway_risk <= 1.52
+|   |   |   |   |--- num__cell_voltage_std <= 1.91
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__cell_voltage_std >  1.91
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__thermal_runaway_risk >  1.52
+|   |   |   |   |--- num__internal_resistance <= 0.44
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- num__internal_resistance >  0.44
+|   |   |   |   |   |--- truncated branch of depth 2
+|--- num__capacity_loss_percent >  1.46
+|   |--- num__charging_quality_score <= -0.94
+|   |   |--- num__capacity_loss_percent <= 1.94
+|   |   |   |--- num__battery_stress_index <= 0.95
+|   |   |   |   |--- num__voltage_imbalance <= 0.99
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__voltage_imbalance >  0.99
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__battery_stress_index >  0.95
+|   |   |   |   |--- num__cooling_system_health <= -0.32
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__cooling_system_health >  -0.32
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- num__capacity_loss_percent >  1.94
+|   |   |   |--- num__thermal_runaway_risk <= 0.90
+|   |   |   |   |--- num__cooling_system_health <= 0.40
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__cooling_system_health >  0.40
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |--- num__thermal_runaway_risk >  0.90
+|   |   |   |   |--- num__voltage_imbalance <= 1.44
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__voltage_imbalance >  1.44
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |--- num__charging_quality_score >  -0.94
+|   |   |--- num__cell_voltage_std <= 2.01
+|   |   |   |--- num__battery_stress_index <= 0.22
+|   |   |   |   |--- num__voltage_imbalance <= 1.37
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__voltage_imbalance >  1.37
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__battery_stress_index >  0.22
+|   |   |   |   |--- num__capacity_loss_percent <= 1.84
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__capacity_loss_percent >  1.84
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- num__cell_voltage_std >  2.01
+|   |   |   |--- num__battery_stress_index <= -0.33
+|   |   |   |   |--- num__BMS_warning_count <= 0.96
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__BMS_warning_count >  0.96
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |--- num__battery_stress_index >  -0.33
+|   |   |   |   |--- num__thermal_runaway_risk <= 1.11
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__thermal_runaway_risk >  1.11
+|   |   |   |   |   |--- truncated branch of depth 4

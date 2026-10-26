@@ -1,0 +1,94 @@
+|--- cat__battery_chemistry_LTO <= 0.50
+|   |--- cat__battery_chemistry_LFP <= 0.50
+|   |   |--- num__thermal_runaway_risk <= -0.90
+|   |   |   |--- num__cell_voltage_avg <= -2.94
+|   |   |   |   |--- num__cycle_count <= 0.49
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- num__cycle_count >  0.49
+|   |   |   |   |   |--- value: [14195.44]
+|   |   |   |--- num__cell_voltage_avg >  -2.94
+|   |   |   |   |--- num__cell_voltage_avg <= 0.42
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- num__cell_voltage_avg >  0.42
+|   |   |   |   |   |--- value: [941.61]
+|   |   |--- num__thermal_runaway_risk >  -0.90
+|   |   |   |--- num__battery_health_percent <= -0.56
+|   |   |   |   |--- num__battery_health_percent <= -1.71
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- num__battery_health_percent >  -1.71
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- num__battery_health_percent >  -0.56
+|   |   |   |   |--- num__capacity_loss_percent <= -0.21
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- num__capacity_loss_percent >  -0.21
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |--- cat__battery_chemistry_LFP >  0.50
+|   |   |--- num__cycle_count <= 0.57
+|   |   |   |--- num__cycle_count <= -0.35
+|   |   |   |   |--- num__battery_health_percent <= 0.82
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- num__battery_health_percent >  0.82
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- num__cycle_count >  -0.35
+|   |   |   |   |--- num__battery_health_percent <= 0.61
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- num__battery_health_percent >  0.61
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |--- num__cycle_count >  0.57
+|   |   |   |--- num__cycle_count <= 1.88
+|   |   |   |   |--- num__battery_health_percent <= 0.19
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- num__battery_health_percent >  0.19
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- num__cycle_count >  1.88
+|   |   |   |   |--- num__cycle_count <= 3.28
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- num__cycle_count >  3.28
+|   |   |   |   |   |--- truncated branch of depth 6
+|--- cat__battery_chemistry_LTO >  0.50
+|   |--- num__cycle_count <= 0.69
+|   |   |--- num__battery_health_percent <= 0.82
+|   |   |   |--- num__capacity_loss_percent <= -0.60
+|   |   |   |   |--- num__capacity_loss_percent <= -0.91
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- num__capacity_loss_percent >  -0.91
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- num__capacity_loss_percent >  -0.60
+|   |   |   |   |--- num__battery_health_percent <= 0.23
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- num__battery_health_percent >  0.23
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |--- num__battery_health_percent >  0.82
+|   |   |   |--- num__cycle_count <= -0.40
+|   |   |   |   |--- num__battery_health_percent <= 0.98
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- num__battery_health_percent >  0.98
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- num__cycle_count >  -0.40
+|   |   |   |   |--- num__battery_health_percent <= 0.93
+|   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |--- num__battery_health_percent >  0.93
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |--- num__cycle_count >  0.69
+|   |   |--- num__capacity_loss_percent <= -0.80
+|   |   |   |--- num__cycle_count <= 1.93
+|   |   |   |   |--- num__capacity_loss_percent <= -0.95
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- num__capacity_loss_percent >  -0.95
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__cycle_count >  1.93
+|   |   |   |   |--- num__cycle_count <= 3.25
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |--- num__cycle_count >  3.25
+|   |   |   |   |   |--- value: [13413.67]
+|   |   |--- num__capacity_loss_percent >  -0.80
+|   |   |   |--- num__cycle_count <= 2.34
+|   |   |   |   |--- num__battery_health_percent <= 0.57
+|   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |--- num__battery_health_percent >  0.57
+|   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |--- num__cycle_count >  2.34
+|   |   |   |   |--- num__battery_health_percent <= 0.53
+|   |   |   |   |   |--- value: [12332.44]
+|   |   |   |   |--- num__battery_health_percent >  0.53
+|   |   |   |   |   |--- truncated branch of depth 3

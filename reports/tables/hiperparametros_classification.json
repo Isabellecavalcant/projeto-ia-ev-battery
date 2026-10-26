@@ -1,0 +1,20 @@
+{
+  "tree_tuned": {
+    "criterion": "gini",
+    "ccp_alpha": 0.0,
+    "max_depth": 8,
+    "min_samples_leaf": 50
+  },
+  "rf": {
+    "n_estimators": 200,
+    "min_samples_leaf": 3,
+    "max_features": 0.3,
+    "max_depth": 20
+  },
+  "gradient_boosting": {
+    "min_samples_leaf": 50,
+    "max_iter": 200,
+    "max_depth": 3,
+    "learning_rate": 0.1
+  }
+}

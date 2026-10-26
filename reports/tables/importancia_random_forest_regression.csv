@@ -1,0 +1,164 @@
+feature,importancia
+cat__battery_chemistry_LTO,0.27230766922633903
+num__cell_voltage_avg,0.2267316751475408
+num__thermal_runaway_risk,0.1473695538319074
+cat__battery_chemistry_LFP,0.09265399724958019
+num__thermal_health_score,0.08189268124719261
+num__internal_resistance,0.04539262202502369
+num__pack_voltage,0.04225717219273836
+num__battery_health_percent,0.018903885328698137
+cat__battery_chemistry_NMC,0.017430614010018153
+num__state_of_health,0.013559305839734144
+num__capacity_loss_percent,0.012651839024438182
+num__aging_score,0.007740119394416898
+num__cycle_count,0.0057215672933503
+cat__vehicle_brand_BYD,0.0053726596289136504
+cat__battery_chemistry_NCA,0.0032684284245148077
+num__cell_voltage_std,0.002447102816748203
+num__odometer_km,0.0014992518419915143
+cat__battery_chemistry_LMO,0.000711972117944618
+num__charge_efficiency,0.00038061691772036657
+num__state_of_charge,0.00019920153591122664
+num__charging_cycles_last_month,0.00016430014688277177
+num__daily_distance,0.00012113509997731592
+num__average_trip_distance,0.00012004847957977148
+cat__vehicle_brand_Nissan,0.00011682061131974054
+num__remaining_capacity,0.00011619625624248491
+num__cell_temperature_avg,8.961955996019689e-05
+num__maximum_temperature,7.577220094118942e-05
+num__cell_temperature_max,6.767616840588596e-05
+num__average_ambient_temperature,3.908540891918121e-05
+num__charging_quality_score,3.870172317065997e-05
+num__battery_capacity_kwh,3.784494810328594e-05
+num__battery_stress_index,3.6298844252840696e-05
+num__average_charging_time,3.1641096720371394e-05
+cat__fleet_or_private_Fleet,3.154141038712796e-05
+num__voltage_imbalance,3.0359397841330506e-05
+cat__fleet_or_private_Private,2.8494022548476624e-05
+num__minimum_temperature,2.4469899241439415e-05
+num__vehicle_age_years,2.339628774179665e-05
+num__last_service_days,2.2769212170657462e-05
+num__humidity,1.9638918083659915e-05
+num__average_charge_power_kw,1.8400612590135445e-05
+num__discharge_efficiency,1.6625807877976374e-05
+num__fast_charge_ratio,1.4632901679952078e-05
+num__maintenance_score,1.3143489750017023e-05
+num__dust_exposure,1.1145107084910833e-05
+num__slow_charge_ratio,1.114314117991531e-05
+cat__vehicle_type_Hatchback,1.0859846869256317e-05
+num__altitude,1.0757930991899294e-05
+num__firmware_updates,1.0143324341892539e-05
+num__cooling_system_health,9.513639332252477e-06
+num__home_charging_ratio,9.46813667106e-06
+num__temperature_variance,9.163077088868517e-06
+cat__vehicle_brand_Tesla,8.879573798027832e-06
+num__regenerative_braking_usage,8.82446820235767e-06
+num__average_speed,8.747895964369355e-06
+num__depth_of_discharge,8.725317656494157e-06
+num__manufacturing_year,8.633453041770523e-06
+num__aggressive_acceleration_score,8.33703022376588e-06
+num__hard_braking_score,8.331720513178978e-06
+num__overnight_charging_ratio,8.25696117635589e-06
+num__highway_driving_ratio,6.859894300979728e-06
+num__driving_stress_score,6.216935484839074e-06
+num__city_driving_ratio,5.366231611563245e-06
+cat__vehicle_brand_Renault,4.358831391697204e-06
+cat__terrain_type_Coastal,3.7558170705177226e-06
+num__previous_faults,3.300426838253573e-06
+num__sensor_fault_count,2.8395140259913034e-06
+cat__vehicle_model_Leaf,2.5213567295603574e-06
+cat__battery_manufacturer_Samsung SDI,2.0637953630949014e-06
+num__BMS_warning_count,1.98167543438673e-06
+num__overcharge_events,1.9267956896183335e-06
+cat__vehicle_type_Sedan,1.5317966609396571e-06
+num__charging_interruptions,1.3637734580351858e-06
+cat__vehicle_model_Silverado EV,1.2981539614345932e-06
+cat__vehicle_model_Ariya,1.2757509996053236e-06
+cat__vehicle_type_SUV,9.125563785136842e-07
+cat__drive_type_FWD,8.771017637388652e-07
+cat__vehicle_model_Zoe,8.0424032906231e-07
+cat__terrain_type_Flat,7.577611931034667e-07
+cat__vehicle_type_Truck,6.646308178492738e-07
+num__abnormal_voltage_events,6.56819710321872e-07
+cat__drive_type_AWD,6.075714515894522e-07
+cat__vehicle_model_Song Plus,4.982347204850764e-07
+cat__battery_manufacturer_CATL,4.912245492391289e-07
+cat__vehicle_model_Nexon EV,4.012767460669182e-07
+cat__vehicle_model_Model S,3.7557612131271926e-07
+cat__battery_manufacturer_LG Energy Solution,3.609762027866226e-07
+cat__vehicle_type_Crossover,3.6081910526747745e-07
+cat__terrain_type_Hilly,3.38483003945202e-07
+cat__vehicle_brand_GM,3.378675879449267e-07
+cat__drive_type_RWD,3.12029854822263e-07
+cat__vehicle_model_Punch EV,3.0245061055398263e-07
+cat__vehicle_model_Dolphin,1.8338112038502884e-07
+cat__vehicle_brand_Mahindra,1.8158564444602638e-07
+cat__terrain_type_Desert,1.78926336897577e-07
+cat__vehicle_model_Atto 3,1.6946525543790268e-07
+cat__vehicle_brand_Tata,1.3417701260364657e-07
+cat__battery_manufacturer_BYD Battery,1.3150063808138625e-07
+cat__vehicle_model_Tiago EV,1.2595927932649806e-07
+cat__battery_manufacturer_Guoxuan,1.1206076994927918e-07
+cat__battery_manufacturer_Panasonic,1.1186026869874594e-07
+cat__battery_manufacturer_SK On,1.1107639778985471e-07
+cat__vehicle_model_Chevrolet Bolt,1.1018305864333952e-07
+cat__vehicle_model_Han,1.0996633450006169e-07
+cat__vehicle_model_MG4,9.653609203004729e-08
+cat__vehicle_model_Megane E-Tech,8.38086431229631e-08
+cat__terrain_type_Mountainous,8.33464197578182e-08
+cat__vehicle_model_Model Y,7.116740996369503e-08
+cat__vehicle_model_Cadillac Lyriq,7.104634290587701e-08
+cat__battery_manufacturer_Northvolt,6.809455578879639e-08
+cat__vehicle_model_Model X,5.927759916571442e-08
+cat__battery_manufacturer_Envision AESC,5.6350798462704276e-08
+cat__vehicle_brand_Volkswagen,4.99928489925225e-08
+cat__vehicle_model_XUV400,4.336715933281389e-08
+cat__vehicle_model_ID.3,3.99382885457996e-08
+cat__vehicle_brand_Toyota,3.9584313851467273e-08
+cat__vehicle_brand_Ford,3.847823044071336e-08
+cat__vehicle_brand_Hyundai,3.482169786788118e-08
+cat__vehicle_type_Van,2.7736514276599267e-08
+cat__vehicle_brand_Kia,2.3821983640709232e-08
+cat__vehicle_brand_Audi,2.0074597285419507e-08
+cat__vehicle_brand_Rivian,1.8486178641065955e-08
+cat__vehicle_brand_Mercedes,1.8272528398497783e-08
+cat__vehicle_brand_BMW,1.596956906731711e-08
+cat__vehicle_model_Model 3,1.5691430884104753e-08
+cat__vehicle_model_EV6,1.52675696468464e-08
+cat__vehicle_model_Tang,1.3717844410550911e-08
+cat__vehicle_model_Niro EV,1.3631932009074025e-08
+cat__vehicle_brand_MG,1.1121031383177263e-08
+cat__vehicle_model_Kona Electric,8.559275201776386e-09
+cat__vehicle_model_R1S,8.30923698442744e-09
+cat__vehicle_model_i4,8.025124230315948e-09
+cat__vehicle_model_EQE,7.828205566113162e-09
+cat__vehicle_model_ID.Buzz,7.390512144758003e-09
+cat__vehicle_brand_Lucid,6.981142985561583e-09
+cat__vehicle_model_iX,6.939548855383654e-09
+cat__vehicle_model_Mustang Mach-E,6.598112658056373e-09
+cat__vehicle_brand_Honda,6.158527238055395e-09
+cat__vehicle_model_bZ4X,5.923926773661627e-09
+cat__vehicle_model_Air,5.702181647340613e-09
+cat__vehicle_brand_Volvo,5.390886607270035e-09
+cat__vehicle_model_e-tron GT,4.69803337388897e-09
+cat__vehicle_model_EV9,3.377383095887632e-09
+cat__vehicle_model_Ioniq 6,3.3001539755329376e-09
+cat__vehicle_model_R1T,3.2468834364879643e-09
+cat__vehicle_model_EQB,2.290321154113758e-09
+cat__vehicle_model_F-150 Lightning,2.1912175723578096e-09
+cat__vehicle_model_EQS,2.0559867853012613e-09
+cat__vehicle_model_Q4 e-tron,1.8275205994694347e-09
+cat__vehicle_model_e-tron,1.6799253374698143e-09
+cat__vehicle_model_ID.4,1.6202983045049174e-09
+cat__vehicle_model_bZ3,1.0271394776040376e-09
+cat__vehicle_model_Ioniq 5,5.423452169687754e-10
+cat__vehicle_model_BE 6,0.0
+cat__vehicle_model_Comet EV,0.0
+cat__vehicle_model_EX90,0.0
+cat__vehicle_model_EX30,0.0
+cat__vehicle_model_Gravity,0.0
+cat__vehicle_model_Prologue,0.0
+cat__vehicle_model_e:Ny1,0.0
+cat__vehicle_model_ZS EV,0.0
+cat__vehicle_model_XC40 Recharge,0.0
+cat__vehicle_model_i7,0.0

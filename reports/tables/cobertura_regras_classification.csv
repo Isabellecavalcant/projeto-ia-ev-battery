@@ -1,0 +1,11 @@
+regra,tipo,disparos,pct_treino
+R01,heuristica,119,0.07
+R02,heuristica,870,0.54
+R03,heuristica,702,0.44
+R04,heuristica,5684,3.55
+R05,heuristica,214,0.13
+R06,heuristica,4400,2.75
+R07,heuristica,490,0.31
+R08,heuristica,414,0.26
+R09,heuristica,8,0.0
+R10,heuristica,0,0.0

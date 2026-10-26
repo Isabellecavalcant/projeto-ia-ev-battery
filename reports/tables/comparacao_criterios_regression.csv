@@ -1,0 +1,3 @@
+criterio,cv_score,ccp_alpha,max_depth,min_samples_leaf
+squared_error,-278.3023973125897,0.0,10,10
+friedman_mse,-278.3023973125897,0.0,10,10

@@ -1,0 +1,14 @@
+# Sistema especialista para classificação de falha em baterias.
+# Regras heurísticas iniciais, ainda não validadas empiricamente.
+PADRÃO: battery_failure = 0
+
+R01 | heurística | SE thermal_runaway_risk >= 85 E cell_temperature_max > 60 | ENTÃO battery_failure = 1
+R02 | heurística | SE sensor_fault_count >= 4 E BMS_warning_count >= 5 | ENTÃO battery_failure = 1
+R03 | heurística | SE abnormal_voltage_events >= 3 E cell_voltage_std > 0.03 | ENTÃO battery_failure = 1
+R04 | heurística | SE capacity_loss_percent >= 35 E battery_health_percent < 60 | ENTÃO battery_failure = 1
+R05 | heurística | SE internal_resistance > 0.9 E voltage_imbalance > 30 | ENTÃO battery_failure = 1
+R06 | heurística | SE previous_faults >= 4 E sensor_fault_count >= 3 | ENTÃO battery_failure = 1
+R07 | heurística | SE overcharge_events >= 3 E cell_temperature_max > 45 | ENTÃO battery_failure = 1
+R08 | heurística | SE battery_stress_index >= 80 E thermal_health_score < 40 | ENTÃO battery_failure = 1
+R09 | heurística | SE cooling_system_health < 30 E cell_temperature_avg > 40 | ENTÃO battery_failure = 1
+R10 | heurística | SE battery_health_percent < 40 | ENTÃO battery_failure = 1
