@@ -1,0 +1,37 @@
+{
+    "classification": {
+        "task": "classification",
+        "config": "C3",
+        "seed": 123,
+        "threshold": 0.43927228450775146,
+        "metrics": {
+            "threshold": 0.43927228450775146,
+            "accuracy": 0.96575,
+            "precision": 0.8181596884128529,
+            "recall": 0.8436244979919679,
+            "f1": 0.8306969846762234,
+            "roc_auc": 0.9891836197522209,
+            "pr_auc": 0.9220566167489272,
+            "confusion_matrix": [
+                [
+                    35269,
+                    747
+                ],
+                [
+                    623,
+                    3361
+                ]
+            ]
+        }
+    },
+    "regression": {
+        "task": "regression",
+        "config": "R1",
+        "seed": 42,
+        "metrics": {
+            "mae": 45.12877655029297,
+            "rmse": 95.12957343637939,
+            "r2": 0.9972472786903381
+        }
+    }
+}
