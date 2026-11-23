@@ -1,0 +1,43 @@
+{
+    "task": "regression",
+    "configuration": "R1",
+    "seed": 42,
+    "test_samples": 38206,
+    "batch_size": 256,
+    "parameters": 6337,
+    "checkpoint_size_mb": 0.08084964752197266,
+    "checkpoint_load_seconds": 0.23240486799841165,
+    "persistence": {
+        "identical_predictions": true,
+        "numerically_close": true,
+        "max_difference": 0.0,
+        "mean_difference": 0.0,
+        "max_difference_vs_residual_csv": 0.000499999998282874,
+        "mean_difference_vs_residual_csv": 2.4827677959622467e-05
+    },
+    "inference": {
+        "warmup_runs": 1,
+        "benchmark_runs": 5,
+        "times_seconds": [
+            0.13673448100234964,
+            0.13941298099962296,
+            0.1425224470003741,
+            0.1437449339973682,
+            0.2321741870000551
+        ],
+        "mean_seconds": 0.158917805999954,
+        "median_seconds": 0.1425224470003741,
+        "std_seconds": 0.041042841352076274,
+        "examples_per_second": 240413.58839305307,
+        "milliseconds_per_example": 0.004159498665129927
+    },
+    "environment": {
+        "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+        "processor": "x86_64",
+        "logical_cpus": 8,
+        "ram_total_gb": 7.479709625244141,
+        "torch_version": "2.15.0+cpu",
+        "device": "cpu",
+        "torch_threads": 1
+    }
+}

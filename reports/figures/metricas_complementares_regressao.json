@@ -1,0 +1,13 @@
+{
+    "n_test": 38206,
+    "mae_ciclos": 45.1287775467436,
+    "mse_ciclos_quadrados": 9049.635851034005,
+    "rmse_ciclos": 95.12957400847543,
+    "medae_ciclos": 31.23249999999996,
+    "r2": 0.9972472965161813,
+    "mape_percent": Infinity,
+    "max_absolute_error_ciclos": 8841.998,
+    "mean_residual_ciclos": -10.566818516784119,
+    "mape_percent_excluding_zero_targets": 5.884251306210896,
+    "zero_targets_excluded_from_mape": 207
+}
